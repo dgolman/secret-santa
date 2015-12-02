@@ -36,6 +36,6 @@ for gifter, receiver in result.items():
 	client.messages.create(
 	    to=numbers[gifter], 
 	    from_="+15406803234", 
-	    body="Hi {0}, This is Moses, thou shall buy a gift for {1}, SHH!! Keep it a secret!".format(gifter, receiver), 
+	    body="Hi {0}, This is Moses, thou shall buy a gift for {1} by Sunday, Dec 6th. SHH!! Keep it a secret!".format(gifter, receiver), 
 	    media_url="http://goo.gl/V7LVmi", 
 	)
